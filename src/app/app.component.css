@@ -1,0 +1,110 @@
+* {margin: 0; padding: 0;}
+
+.w3-margin{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 0.7em;
+}
+
+
+.container {
+  margin-top: 2rem;
+
+}
+
+table {
+  font-family: 'Montserrat';
+}
+
+p {
+  text-indent: 2rem;
+  margin: 10px;
+  overflow: hidden; 
+  white-space: normal; 
+              
+            /* Exactly 2 lines are displayed.  
+                Height of 1 line is 1.2em*/ 
+  height: 2.4em;  
+  text-overflow: -o-ellipsis-lastline;
+}
+.submit-button {
+  text-align: center;
+}
+
+button {
+  font-size: 0.8em; 
+  background-color: teal; 
+  height: 25px;
+  border-radius: 100px;
+
+}
+
+.menu p {
+  color: rgba(51, 51, 51, 0.61);
+  font-size: 13px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display{
+  float: left;
+  margin-bottom: 0.3rem;
+}
+a:hover {
+  text-decoration: none;
+  color: #ffc107;
+  margin: 10px;
+}
+.w3-container{
+ padding: 30px;
+  margin: 50px;
+  height: 150px;
+  color: #111;  
+  letter-spacing: 0px;  
+}
+
+ 
+div {
+  margin: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  color: #3e3e3e;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+h3::first-letter{
+   text-transform:uppercase;
+}
+ 
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+body{
+ 
+  font-size: 2em;
+  margin-left: 150px;
+
+}
